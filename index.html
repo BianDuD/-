@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>你的名字 · 博客</title>
+  <style>
+    :root { --ink:#1a1a1a; --paper:#faf9f6; --muted:#8a8a8a; --line:#e5e2da; }
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body {
+      background:var(--paper); color:var(--ink);
+      font-family:-apple-system,"PingFang SC","Noto Serif SC",Georgia,serif;
+      line-height:1.8; padding:12vh 8vw;
+    }
+    .wrap { max-width:620px; margin:0 auto; }
+    h1 { font-size:2.2rem; font-weight:600; letter-spacing:.02em; margin-bottom:.6rem; }
+    .intro { color:var(--muted); font-size:1rem; margin-bottom:4rem; }
+    h2 { font-size:.82rem; font-weight:500; letter-spacing:.18em; text-transform:uppercase;
+         color:var(--muted); margin-bottom:1.4rem; }
+    article { padding:1.2rem 0; border-top:1px solid var(--line); }
+    article:last-child { border-bottom:1px solid var(--line); }
+    .date { font-size:.78rem; color:var(--muted); letter-spacing:.08em;
+            font-family:ui-monospace,Menlo,monospace; }
+    h3 { font-size:1.15rem; font-weight:500; margin:.3rem 0 .2rem; }
+    h3 a { color:var(--ink); text-decoration:none; }
+    h3 a:hover { text-decoration:underline; text-underline-offset:4px; }
+    footer { margin-top:4rem; font-size:.78rem; color:var(--muted); letter-spacing:.05em; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>你的名字</h1>
+    <p class="intro">一个笨蛋在这里写点东西。</p>
+    <h2>文章</h2>
+    <article>
+      <div class="date">2026.10.21</div>
+      <h3><a href="#">第一篇：我为什么会做这个博客</a></h3>
+      <p>从一个三件套和一个免费的网址开始。</p>
+    </article>
+    <article>
+      <div class="date">2026.10.22</div>
+      <h3><a href="#">第二篇：标题可以随便改</a></h3>
+      <p>点开每个链接，替换成你自己的文字就行。</p>
+    </article>
+    <footer>由一个人手写的 HTML · 没有框架，没有依赖。</footer>
+  </div>
+</body>
+</html>
